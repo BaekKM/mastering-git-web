@@ -16,9 +16,9 @@
 * 추출한 위치에서의 예측 결과  및 행동 분석 결과 표시
 -------------
 ```plantuml
-@startuml
-User -> Server: give position data
-Server -> Server: Using position data, process behavior information
-Server -> User: send result information
-@enduml
+sequenceDiagram
+	User -> Server: give position data
+	Server -> Server: Using position data, process behavior information
+	Server -> User: send result information
+
 ```
