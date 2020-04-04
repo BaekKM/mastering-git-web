@@ -16,7 +16,7 @@
 * 추출한 위치에서의 예측 결과  및 행동 분석 결과 표시
 
 ```uml
-User -> Server: give position data
-Server -> Server: Using position data, process behavior information
-Server -> User: send result information
+User _> Server: give position data
+Server _> Server: Using position data, process behavior information
+Server _> User: send result information
 ```
