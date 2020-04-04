@@ -17,8 +17,8 @@
 
 ```plantuml
 @startuml
-User -> Server: 위치 정보 데이터 제공
-Server -> Server: 사용자에게 제공받은 데이터를 이용하여 행동 예측, 분석 
-Server -> User: 예측한 결과를 사용자에게 제공 
+	User -> Server: 위치 정보 데이터 제공
+	Server -> Server: 사용자에게 제공받은 데이터를 이용하여 행동 예측, 분석 
+	Server -> User: 예측한 결과를 사용자에게 제공 
 @enduml
 ```
